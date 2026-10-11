@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><title>Voice transport test</title><style>body{background:#101114;color:#d7fa62;font:16px system-ui;padding:32px}button{padding:16px}pre{white-space:pre-wrap}</style><h1>WebRTC audio transport test</h1><p>Uses synthesized audio. The microphone is never accessed.</p><button id="run">Run audio test</button><pre id="result">Ready</pre><script type="module">
+import { VoiceChat } from '/src/lib/voice.ts';
+const output = document.querySelector('#result');
+document.querySelector('#run').onclick = async () => {
+  document.querySelector('#run').disabled = true;
+  const saved = localStorage.getItem('gw:session');
+  const peers = []; const voices = []; const context = new AudioContext();
+  const OriginalPeer = window.RTCPeerConnection; const OriginalAudio = window.Audio;
+  const originalMedia = navigator.mediaDevices.getUserMedia.bind(navigator.mediaDevices);
+  window.RTCPeerConnection = class extends OriginalPeer { constructor(config) { super(config); peers.push(this); } };
+  window.Audio = class extends OriginalAudio { constructor() { super(); this.muted = true; } };
+  navigator.mediaDevices.getUserMedia = async () => { const oscillator = context.createOscillator(); const destination = context.createMediaStreamDestination(); oscillator.frequency.value = 440; oscillator.connect(destination); oscillator.start(); return destination.stream; };
+  const post = async (path,body,token='') => { const response = await fetch('/api/local/'+path,{method:'POST',headers:{'Content-Type':'application/json',Authorization:'Bearer '+token},body:JSON.stringify(body)}); const result = await response.json(); if (!response.ok) throw new Error(result.error); return result; };
+  let host; let room;
+  try {
+    await context.resume();
+    host = await post('session',{username:'Voice QA Host'}); const guest = await post('session',{username:'Voice QA Guest'});
+    await post('rpc',{fn:'request_friend',args:{p_code:guest.profile.friend_code}},host.token);
+    await post('rpc',{fn:'respond_friend',args:{p_user:host.profile.id,p_accept:true}},guest.token);
+    room = await post('rpc',{fn:'create_room',args:{p_category:'naruto',p_public:false}},host.token);
+    await post('rpc',{fn:'join_room',args:{p_code:room.code}},guest.token);
+    await post('rpc',{fn:'select_secret',args:{p_room:room.id,p_character:'naruto-naruto-uzumaki'}},host.token);
+    await post('rpc',{fn:'select_secret',args:{p_room:room.id,p_character:'naruto-sasuke-uchiha'}},guest.token);
+    const states = {};
+    for (const [label,player,isHost] of [['host',host,true],['guest',guest,false]]) {
+      localStorage.setItem('gw:session',JSON.stringify(player.token)); const voice = new VoiceChat(); voices.push(voice);
+      await voice.start(room.id,player.profile.id,isHost,state => { states[label] = state; output.textContent = JSON.stringify(states); });
+    }
+    const deadline = Date.now()+20000; let received = [];
+    while (Date.now()<deadline) {
+      received = await Promise.all(peers.map(async peer => { const stats = await peer.getStats(); let bytes = 0; stats.forEach(report => { if (report.type==='inbound-rtp' && report.kind==='audio') bytes += report.bytesReceived || 0; }); return bytes; }));
+      if (received.length===2 && received.every(bytes => bytes>1000)) break;
+      await new Promise(resolve => setTimeout(resolve,250));
+    }
+    if (!received.every(bytes=>bytes>1000) || received.length!==2) throw new Error('No bidirectional audio: '+JSON.stringify({states,received}));
+    voices[0].mute(true);
+    if (peers[0].getSenders().some(sender => sender.track?.enabled)) throw new Error('Mute failed');
+    voices[0].mute(false);
+    await post('rpc',{fn:'guess_character',args:{p_room:room.id,p_character:'naruto-sasuke-uchiha'}},host.token);
+    await post('rpc',{fn:'guess_character',args:{p_room:room.id,p_character:'naruto-naruto-uzumaki'}},guest.token);
+    const finished = await post('rpc',{fn:'get_game',args:{p_room:room.id}},host.token);
+    if (finished.room.status !== 'finished' || finished.room.outcome !== 'draw') throw new Error('Match did not finish');
+    const audioBytes = async () => Promise.all(peers.map(async peer => { let bytes = 0; (await peer.getStats()).forEach(report => { if (report.type==='inbound-rtp' && report.kind==='audio') bytes += report.bytesReceived || 0; }); return bytes; }));
+    await new Promise(resolve => setTimeout(resolve,1000));
+    const after = await audioBytes();
+    if (after.some((bytes,index) => bytes <= received[index]) || peers.some(peer => peer.connectionState !== 'connected')) throw new Error('Audio stopped after result');
+    voices.forEach(voice => voice.stop()); peers.length = 0; voices.length = 0;
+    for (const [player,isHost] of [[host,true],[guest,false]]) {
+      localStorage.setItem('gw:session',JSON.stringify(player.token)); const voice = new VoiceChat(); voices.push(voice);
+      await voice.start(room.id,player.profile.id,isHost,() => {});
+    }
+    const reconnectDeadline = Date.now()+20000;
+    let reconnected = [];
+    while (Date.now()<reconnectDeadline) {
+      reconnected = await audioBytes();
+      if (reconnected.length===2 && reconnected.every(bytes=>bytes>1000)) break;
+      await new Promise(resolve => setTimeout(resolve,250));
+    }
+    if (reconnected.length!==2 || !reconnected.every(bytes=>bytes>1000)) throw new Error('Cannot reconnect after match');
+    const outsider = await post('session',{username:'Voice QA Outsider'});
+    await new Promise((resolve,reject) => {
+      const socket = new WebSocket(`${location.protocol==='https:'?'wss:':'ws:'}//${location.host}/api/local/events`);
+      const timer = setTimeout(() => { socket.close(); reject(new Error('Outsider check timeout')); },5000);
+      socket.onopen = () => socket.send(JSON.stringify({type:'auth',mode:'voice',room:room.id,token:outsider.token}));
+      socket.onmessage = event => { if (JSON.parse(event.data).type==='ready') { clearTimeout(timer); socket.close(); reject(new Error('Outsider admitted')); } };
+      socket.onclose = event => { clearTimeout(timer); if (event.code===1008) resolve(); else reject(new Error('Unexpected outsider close')); };
+    });
+    await post('rpc',{fn:'remove_friend',args:{p_user:guest.profile.id}},host.token);
+    const revokeDeadline = Date.now()+18000;
+    while (Date.now()<revokeDeadline && peers.some(peer=>peer.connectionState!=='closed')) await new Promise(resolve=>setTimeout(resolve,250));
+    if (peers.some(peer=>peer.connectionState!=='closed')) throw new Error('Voice continued after friendship removed');
+    output.textContent = 'PASS: friend audio before and after a draw, mute/unmute, reconnect, outsider rejected, friendship removal closes both peers. Bytes before: '+received.join(' / ')+'. After: '+after.join(' / ')+'. Reconnected: '+reconnected.join(' / ');
+  } catch(error) { output.textContent = 'FAIL: '+error.message; }
+  finally {
+    voices.forEach(voice=>voice.stop()); await context.close();
+    window.RTCPeerConnection = OriginalPeer; window.Audio = OriginalAudio; navigator.mediaDevices.getUserMedia = originalMedia;
+    if (saved===null) localStorage.removeItem('gw:session'); else localStorage.setItem('gw:session',saved);
+    if (host && room) await post('rpc',{fn:'leave_room',args:{p_room:room.id}},host.token);
+    document.querySelector('#run').disabled = false;
+  }
+};
+</script></html>

@@ -1,0 +1,770 @@
+[
+  {
+    "id": "attack-on-titan-eren-jaeger",
+    "name": "Eren Jaeger",
+    "source": "https://static.wikia.nocookie.net/shingekinokyojin/images/a/a1/Eren_Jaeger_%28Anime%29_character_image.png/revision/latest/scale-to-width-down/350?cb=20220123225500",
+    "file": "/images/attack-on-titan/eren-jaeger.webp"
+  },
+  {
+    "id": "attack-on-titan-mikasa-ackermann",
+    "name": "Mikasa Ackermann",
+    "source": "https://static.wikia.nocookie.net/shingekinokyojin/images/4/4f/Mikasa_Ackermann_%28Anime%29_character_image.png/revision/latest/scale-to-width-down/350?cb=20210221220718",
+    "file": "/images/attack-on-titan/mikasa-ackermann.webp"
+  },
+  {
+    "id": "attack-on-titan-armin-arlelt",
+    "name": "Armin Arlelt",
+    "source": "https://static.wikia.nocookie.net/shingekinokyojin/images/9/93/Armin_Arlelt_%28Anime%29_character_image.png/revision/latest/scale-to-width-down/350?cb=20210322005647",
+    "file": "/images/attack-on-titan/armin-arlelt.webp"
+  },
+  {
+    "id": "attack-on-titan-levi-ackermann",
+    "name": "Levi Ackermann",
+    "source": "https://static.wikia.nocookie.net/shingekinokyojin/images/b/b1/Levi_Ackermann_%28Anime%29_character_image.png/revision/latest/scale-to-width-down/350?cb=20230309145235",
+    "file": "/images/attack-on-titan/levi-ackermann.webp"
+  },
+  {
+    "id": "attack-on-titan-erwin-smith",
+    "name": "Erwin Smith",
+    "source": "https://static.wikia.nocookie.net/shingekinokyojin/images/d/de/Erwin_Smith_%28Anime%29_character_image.png/revision/latest/scale-to-width-down/350?cb=20190604212647",
+    "file": "/images/attack-on-titan/erwin-smith.webp"
+  },
+  {
+    "id": "attack-on-titan-reiner-braun",
+    "name": "Reiner Braun",
+    "source": "https://static.wikia.nocookie.net/shingekinokyojin/images/6/6d/Reiner_Braun_%28Anime%29_character_image.png/revision/latest/scale-to-width-down/350?cb=20201215085623",
+    "file": "/images/attack-on-titan/reiner-braun.webp"
+  },
+  {
+    "id": "attack-on-titan-bertholdt-hoover",
+    "name": "Bertholdt Hoover",
+    "source": "https://static.wikia.nocookie.net/shingekinokyojin/images/5/56/Bertholdt_Hoover_%28Anime%29_character_image.png/revision/latest/scale-to-width-down/350?cb=20190513182108",
+    "file": "/images/attack-on-titan/bertholdt-hoover.webp"
+  },
+  {
+    "id": "attack-on-titan-annie-leonhart",
+    "name": "Annie Leonhart",
+    "source": "https://static.wikia.nocookie.net/shingekinokyojin/images/6/66/Annie_Leonhart_%28Anime%29_character_image.png/revision/latest/scale-to-width-down/350?cb=20230310224559",
+    "file": "/images/attack-on-titan/annie-leonhart.webp"
+  },
+  {
+    "id": "attack-on-titan-jean-kirschtein",
+    "name": "Jean Kirschtein",
+    "source": "https://static.wikia.nocookie.net/shingekinokyojin/images/3/38/Jean_Kirschtein_%28Anime%29_character_image.png/revision/latest/scale-to-width-down/350?cb=20210207230042",
+    "file": "/images/attack-on-titan/jean-kirschtein.webp"
+  },
+  {
+    "id": "attack-on-titan-conny-springer",
+    "name": "Conny Springer",
+    "source": "https://static.wikia.nocookie.net/shingekinokyojin/images/3/37/Conny_Springer_%28Anime%29_character_image.png/revision/latest/scale-to-width-down/350?cb=20210211105306",
+    "file": "/images/attack-on-titan/conny-springer.webp"
+  },
+  {
+    "id": "attack-on-titan-sasha-braus",
+    "name": "Sasha Braus",
+    "source": "https://static.wikia.nocookie.net/shingekinokyojin/images/0/0a/Sasha_Braus_%28Anime%29_character_image.png/revision/latest/scale-to-width-down/350?cb=20210124211650",
+    "file": "/images/attack-on-titan/sasha-braus.webp"
+  },
+  {
+    "id": "attack-on-titan-historia-reiss",
+    "name": "Historia Reiss",
+    "source": "https://static.wikia.nocookie.net/shingekinokyojin/images/6/65/Historia_Reiss_%28Anime%29_character_image.png/revision/latest/scale-to-width-down/350?cb=20210214220206",
+    "file": "/images/attack-on-titan/historia-reiss.webp"
+  },
+  {
+    "id": "attack-on-titan-ymir",
+    "name": "Ymir",
+    "source": "https://static.wikia.nocookie.net/shingekinokyojin/images/4/43/Ymir_%28Anime%29_character_image.png/revision/latest/scale-to-width-down/350?cb=20181009020525",
+    "file": "/images/attack-on-titan/ymir.webp"
+  },
+  {
+    "id": "attack-on-titan-hange-zoe",
+    "name": "Hange Zoë",
+    "source": "https://static.wikia.nocookie.net/shingekinokyojin/images/e/e4/Hange_Zo%C3%AB_%28Anime%29_character_image.png/revision/latest/scale-to-width-down/350?cb=20210221212604",
+    "file": "/images/attack-on-titan/hange-zoe.webp"
+  },
+  {
+    "id": "attack-on-titan-zeke-jaeger",
+    "name": "Zeke Jaeger",
+    "source": "https://static.wikia.nocookie.net/shingekinokyojin/images/4/40/Zeke_Jaeger_%28Anime%29_character_image.png/revision/latest/scale-to-width-down/350?cb=20221009190448",
+    "file": "/images/attack-on-titan/zeke-jaeger.webp"
+  },
+  {
+    "id": "attack-on-titan-grisha-jaeger",
+    "name": "Grisha Jaeger",
+    "source": "https://static.wikia.nocookie.net/shingekinokyojin/images/3/33/Grisha_Jaeger_%28Anime%29_character_image.png/revision/latest/scale-to-width-down/350?cb=20170418234824",
+    "file": "/images/attack-on-titan/grisha-jaeger.webp"
+  },
+  {
+    "id": "attack-on-titan-gabi-braun",
+    "name": "Gabi Braun",
+    "source": "https://static.wikia.nocookie.net/shingekinokyojin/images/4/46/Gabi_Braun_%28Anime%29_character_image.png/revision/latest/scale-to-width-down/350?cb=20230310232610",
+    "file": "/images/attack-on-titan/gabi-braun.webp"
+  },
+  {
+    "id": "attack-on-titan-pieck-finger",
+    "name": "Pieck Finger",
+    "source": "https://static.wikia.nocookie.net/shingekinokyojin/images/7/73/Pieck_Finger_%28Anime%29_character_image.png/revision/latest/scale-to-width-down/350?cb=20210329044012",
+    "file": "/images/attack-on-titan/pieck-finger.webp"
+  },
+  {
+    "id": "attack-on-titan-porco-galliard",
+    "name": "Porco Galliard",
+    "source": "https://static.wikia.nocookie.net/shingekinokyojin/images/0/0c/Porco_Galliard_%28Anime%29_character_image.png/revision/latest/scale-to-width-down/350?cb=20201213215821",
+    "file": "/images/attack-on-titan/porco-galliard.webp"
+  },
+  {
+    "id": "attack-on-titan-floch-forster",
+    "name": "Floch Forster",
+    "source": "https://static.wikia.nocookie.net/shingekinokyojin/images/3/3b/Floch_Forster_%28Anime%29_character_image.png/revision/latest/scale-to-width-down/350?cb=20210221222051",
+    "file": "/images/attack-on-titan/floch-forster.webp"
+  },
+  {
+    "id": "attack-on-titan-kenny-ackermann",
+    "name": "Kenny Ackermann",
+    "source": "https://static.wikia.nocookie.net/shingekinokyojin/images/e/ee/Kenny_Ackermann_%28Anime%29_character_image.png/revision/latest/scale-to-width-down/350?cb=20180906041337",
+    "file": "/images/attack-on-titan/kenny-ackermann.webp"
+  },
+  {
+    "id": "attack-on-titan-falco-grice",
+    "name": "Falco Grice",
+    "source": "https://static.wikia.nocookie.net/shingekinokyojin/images/5/5a/Falco_Grice_%28Anime%29_character_image.png/revision/latest/scale-to-width-down/350?cb=20230310231730",
+    "file": "/images/attack-on-titan/falco-grice.webp"
+  },
+  {
+    "id": "attack-on-titan-dot-pyxis",
+    "name": "Dot Pyxis",
+    "source": "https://static.wikia.nocookie.net/shingekinokyojin/images/0/0f/Dot_Pyxis_%28Anime%29_character_image.png/revision/latest/scale-to-width-down/350?cb=20210228223732",
+    "file": "/images/attack-on-titan/dot-pyxis.webp"
+  },
+  {
+    "id": "attack-on-titan-marco-bodt",
+    "name": "Marco Bodt",
+    "source": "https://static.wikia.nocookie.net/shingekinokyojin/images/9/9a/Marco_Bodt_%28Anime%29_character_image.png/revision/latest/scale-to-width-down/350?cb=20220308173139",
+    "file": "/images/attack-on-titan/marco-bodt.webp"
+  },
+  {
+    "id": "attack-on-titan-petra-rall",
+    "name": "Petra Rall",
+    "source": "https://static.wikia.nocookie.net/shingekinokyojin/images/5/5f/Petra_Rall_%28Anime%29_character_image.png/revision/latest/scale-to-width-down/350?cb=20160327071221",
+    "file": "/images/attack-on-titan/petra-rall.webp"
+  },
+  {
+    "id": "attack-on-titan-hitch-dreyse",
+    "name": "Hitch Dreyse",
+    "source": "https://static.wikia.nocookie.net/shingekinokyojin/images/4/4b/Hitch_Dreyse_%28Anime%29_character_image.png/revision/latest/scale-to-width-down/350?cb=20220325011514",
+    "file": "/images/attack-on-titan/hitch-dreyse.webp"
+  },
+  {
+    "id": "attack-on-titan-marlo-freudenberg",
+    "name": "Marlo Freudenberg",
+    "source": "https://static.wikia.nocookie.net/shingekinokyojin/images/6/63/Marlo_Freudenberg_%28Anime%29_character_image.png/revision/latest/scale-to-width-down/350?cb=20170514194208",
+    "file": "/images/attack-on-titan/marlo-freudenberg.webp"
+  },
+  {
+    "id": "attack-on-titan-hannes",
+    "name": "Hannes",
+    "source": "https://static.wikia.nocookie.net/shingekinokyojin/images/0/09/Hannes_%28Anime%29_character_image.png/revision/latest/scale-to-width-down/350?cb=20170520171257",
+    "file": "/images/attack-on-titan/hannes.webp"
+  },
+  {
+    "id": "attack-on-titan-carla-jaeger",
+    "name": "Carla Jaeger",
+    "source": "https://static.wikia.nocookie.net/shingekinokyojin/images/3/3d/Carla_Jaeger_%28Anime%29_character_image.png/revision/latest/scale-to-width-down/350?cb=20170419134831",
+    "file": "/images/attack-on-titan/carla-jaeger.webp"
+  },
+  {
+    "id": "attack-on-titan-rod-reiss",
+    "name": "Rod Reiss",
+    "source": "https://static.wikia.nocookie.net/shingekinokyojin/images/4/48/Rod_Reiss_%28Anime%29_character_image.png/revision/latest/scale-to-width-down/350?cb=20180903032714",
+    "file": "/images/attack-on-titan/rod-reiss.webp"
+  },
+  {
+    "id": "attack-on-titan-yelena",
+    "name": "Yelena",
+    "source": "https://static.wikia.nocookie.net/shingekinokyojin/images/4/45/Yelena_%28Anime%29_character_image.png/revision/latest/scale-to-width-down/350?cb=20210207232354",
+    "file": "/images/attack-on-titan/yelena.webp"
+  },
+  {
+    "id": "attack-on-titan-onyankopon",
+    "name": "Onyankopon",
+    "source": "https://static.wikia.nocookie.net/shingekinokyojin/images/a/a8/Onyankopon_%28Anime%29_character_image.png/revision/latest/scale-to-width-down/350?cb=20210228223743",
+    "file": "/images/attack-on-titan/onyankopon.webp"
+  },
+  {
+    "id": "naruto-naruto-uzumaki",
+    "name": "Naruto Uzumaki",
+    "source": "https://static.wikia.nocookie.net/naruto/images/7/7d/Naruto_Part_II.png",
+    "file": "/images/naruto/naruto-uzumaki.webp"
+  },
+  {
+    "id": "naruto-sasuke-uchiha",
+    "name": "Sasuke Uchiha",
+    "source": "https://static.wikia.nocookie.net/naruto/images/1/13/Sasuke_Part_2.png",
+    "file": "/images/naruto/sasuke-uchiha.webp"
+  },
+  {
+    "id": "naruto-sakura-haruno",
+    "name": "Sakura Haruno",
+    "source": "https://static.wikia.nocookie.net/naruto/images/b/ba/Sakurap2.png",
+    "file": "/images/naruto/sakura-haruno.webp"
+  },
+  {
+    "id": "naruto-kakashi-hatake",
+    "name": "Kakashi Hatake",
+    "source": "https://static.wikia.nocookie.net/naruto/images/2/25/Kakashi_Part_III.png",
+    "file": "/images/naruto/kakashi-hatake.webp"
+  },
+  {
+    "id": "naruto-itachi-uchiha",
+    "name": "Itachi Uchiha",
+    "source": "https://static.wikia.nocookie.net/naruto/images/b/bb/Itachi.png",
+    "file": "/images/naruto/itachi-uchiha.webp"
+  },
+  {
+    "id": "naruto-hinata-hyuga",
+    "name": "Hinata Hyūga",
+    "source": "https://static.wikia.nocookie.net/naruto/images/7/79/Hinata_Part_II.png",
+    "file": "/images/naruto/hinata-hyuga.webp"
+  },
+  {
+    "id": "naruto-gaara",
+    "name": "Gaara",
+    "source": "https://static.wikia.nocookie.net/naruto/images/0/0f/Gaara_Part_II.png",
+    "file": "/images/naruto/gaara.webp"
+  },
+  {
+    "id": "naruto-rock-lee",
+    "name": "Rock Lee",
+    "source": "https://static.wikia.nocookie.net/naruto/images/7/7d/Lee_timeskip.png",
+    "file": "/images/naruto/rock-lee.webp"
+  },
+  {
+    "id": "naruto-shikamaru-nara",
+    "name": "Shikamaru Nara",
+    "source": "https://static.wikia.nocookie.net/naruto/images/9/9a/Shikamaru_Nara.png",
+    "file": "/images/naruto/shikamaru-nara.webp"
+  },
+  {
+    "id": "naruto-jiraiya",
+    "name": "Jiraiya",
+    "source": "https://static.wikia.nocookie.net/naruto/images/2/21/Profile_Jiraiya.PNG",
+    "file": "/images/naruto/jiraiya.webp"
+  },
+  {
+    "id": "naruto-tsunade",
+    "name": "Tsunade",
+    "source": "https://static.wikia.nocookie.net/naruto/images/b/b3/Tsunade_infobox2.png",
+    "file": "/images/naruto/tsunade.webp"
+  },
+  {
+    "id": "naruto-orochimaru",
+    "name": "Orochimaru",
+    "source": "https://static.wikia.nocookie.net/naruto/images/b/be/Orochimaru_Part_III.png",
+    "file": "/images/naruto/orochimaru.webp"
+  },
+  {
+    "id": "naruto-minato-namikaze",
+    "name": "Minato Namikaze",
+    "source": "https://static.wikia.nocookie.net/naruto/images/7/71/Minato_Namikaze.png",
+    "file": "/images/naruto/minato-namikaze.webp"
+  },
+  {
+    "id": "naruto-madara-uchiha",
+    "name": "Madara Uchiha",
+    "source": "https://static.wikia.nocookie.net/naruto/images/f/fd/Madara.png",
+    "file": "/images/naruto/madara-uchiha.webp"
+  },
+  {
+    "id": "naruto-neji-hyuga",
+    "name": "Neji Hyūga",
+    "source": "https://static.wikia.nocookie.net/naruto/images/a/a8/Neji_Part_II.png",
+    "file": "/images/naruto/neji-hyuga.webp"
+  },
+  {
+    "id": "naruto-tobirama-senju",
+    "name": "Tobirama Senju",
+    "source": "https://static.wikia.nocookie.net/naruto/images/b/be/Tobirama_Senju.png",
+    "file": "/images/naruto/tobirama-senju.webp"
+  },
+  {
+    "id": "naruto-obito-uchiha",
+    "name": "Obito Uchiha",
+    "source": "https://static.wikia.nocookie.net/naruto/images/3/3c/Obito.png",
+    "file": "/images/naruto/obito-uchiha.webp"
+  },
+  {
+    "id": "naruto-might-guy",
+    "name": "Might Guy",
+    "source": "https://static.wikia.nocookie.net/naruto/images/b/b3/Might_Guy_Part_III.png",
+    "file": "/images/naruto/might-guy.webp"
+  },
+  {
+    "id": "naruto-ino-yamanaka",
+    "name": "Ino Yamanaka",
+    "source": "https://static.wikia.nocookie.net/naruto/images/8/89/Ino2.png",
+    "file": "/images/naruto/ino-yamanaka.webp"
+  },
+  {
+    "id": "naruto-temari",
+    "name": "Temari",
+    "source": "https://static.wikia.nocookie.net/naruto/images/b/b2/Temari_Part_II.png",
+    "file": "/images/naruto/temari.webp"
+  },
+  {
+    "id": "naruto-tenten",
+    "name": "Tenten",
+    "source": "https://static.wikia.nocookie.net/naruto/images/0/02/Tenten_Part_II.png",
+    "file": "/images/naruto/tenten.webp"
+  },
+  {
+    "id": "naruto-deidara",
+    "name": "Deidara",
+    "source": "https://static.wikia.nocookie.net/naruto/images/0/06/Deidara.png",
+    "file": "/images/naruto/deidara.webp"
+  },
+  {
+    "id": "naruto-kisame-hoshigaki",
+    "name": "Kisame Hoshigaki",
+    "source": "https://static.wikia.nocookie.net/naruto/images/2/25/Kisame.png",
+    "file": "/images/naruto/kisame-hoshigaki.webp"
+  },
+  {
+    "id": "naruto-sasori",
+    "name": "Sasori",
+    "source": "https://static.wikia.nocookie.net/naruto/images/f/f7/Sasori.png",
+    "file": "/images/naruto/sasori.webp"
+  },
+  {
+    "id": "naruto-sai",
+    "name": "Sai",
+    "source": "https://static.wikia.nocookie.net/naruto/images/6/6c/Sai_Part_III.png",
+    "file": "/images/naruto/sai.webp"
+  },
+  {
+    "id": "naruto-kabuto-yakushi",
+    "name": "Kabuto Yakushi",
+    "source": "https://static.wikia.nocookie.net/naruto/images/0/0b/Kabuto_Part_II.png",
+    "file": "/images/naruto/kabuto-yakushi.webp"
+  },
+  {
+    "id": "naruto-hashirama-senju",
+    "name": "Hashirama Senju",
+    "source": "https://static.wikia.nocookie.net/naruto/images/7/7e/Hashirama_Senju.png",
+    "file": "/images/naruto/hashirama-senju.webp"
+  },
+  {
+    "id": "naruto-kiba-inuzuka",
+    "name": "Kiba Inuzuka",
+    "source": "https://static.wikia.nocookie.net/naruto/images/c/cb/Kiba_Part_2.png",
+    "file": "/images/naruto/kiba-inuzuka.webp"
+  },
+  {
+    "id": "naruto-shino-aburame",
+    "name": "Shino Aburame",
+    "source": "https://static.wikia.nocookie.net/naruto/images/e/e1/Shino_Aburame_P2.png",
+    "file": "/images/naruto/shino-aburame.webp"
+  },
+  {
+    "id": "naruto-choji-akimichi",
+    "name": "Chōji Akimichi",
+    "source": "https://static.wikia.nocookie.net/naruto/images/e/ec/Ch%C5%8Dji_Part_II.png",
+    "file": "/images/naruto/choji-akimichi.webp"
+  },
+  {
+    "id": "naruto-konan",
+    "name": "Konan",
+    "source": "https://static.wikia.nocookie.net/naruto/images/5/58/Konan_Infobox.png",
+    "file": "/images/naruto/konan.webp"
+  },
+  {
+    "id": "naruto-killer-b",
+    "name": "Killer B",
+    "source": "https://static.wikia.nocookie.net/naruto/images/3/30/Killer_B_Part_III.png",
+    "file": "/images/naruto/killer-b.webp"
+  },
+  {
+    "id": "harry-potter-harry-potter",
+    "name": "Harry Potter",
+    "source": "https://ik.imagekit.io/hpapi/harry.jpg",
+    "file": "/images/harry-potter/harry-potter.webp"
+  },
+  {
+    "id": "harry-potter-hermione-granger",
+    "name": "Hermione Granger",
+    "source": "https://ik.imagekit.io/hpapi/hermione.jpeg",
+    "file": "/images/harry-potter/hermione-granger.webp"
+  },
+  {
+    "id": "harry-potter-ron-weasley",
+    "name": "Ron Weasley",
+    "source": "https://ik.imagekit.io/hpapi/ron.jpg",
+    "file": "/images/harry-potter/ron-weasley.webp"
+  },
+  {
+    "id": "harry-potter-albus-dumbledore",
+    "name": "Albus Dumbledore",
+    "source": "https://raw.githubusercontent.com/fedeperin/potterapi/main/public/images/characters/albus_dumbledore.png",
+    "file": "/images/harry-potter/albus-dumbledore.webp"
+  },
+  {
+    "id": "harry-potter-severus-snape",
+    "name": "Severus Snape",
+    "source": "https://ik.imagekit.io/hpapi/snape.jpg",
+    "file": "/images/harry-potter/severus-snape.webp"
+  },
+  {
+    "id": "harry-potter-draco-malfoy",
+    "name": "Draco Malfoy",
+    "source": "https://ik.imagekit.io/hpapi/draco.jpg",
+    "file": "/images/harry-potter/draco-malfoy.webp"
+  },
+  {
+    "id": "harry-potter-sirius-black",
+    "name": "Sirius Black",
+    "source": "https://ik.imagekit.io/hpapi/sirius.JPG",
+    "file": "/images/harry-potter/sirius-black.webp"
+  },
+  {
+    "id": "harry-potter-rubeus-hagrid",
+    "name": "Rubeus Hagrid",
+    "source": "https://ik.imagekit.io/hpapi/hagrid.png",
+    "file": "/images/harry-potter/rubeus-hagrid.webp"
+  },
+  {
+    "id": "harry-potter-luna-lovegood",
+    "name": "Luna Lovegood",
+    "source": "https://ik.imagekit.io/hpapi/luna.jpg",
+    "file": "/images/harry-potter/luna-lovegood.webp"
+  },
+  {
+    "id": "harry-potter-neville-longbottom",
+    "name": "Neville Longbottom",
+    "source": "https://ik.imagekit.io/hpapi/neville.jpg",
+    "file": "/images/harry-potter/neville-longbottom.webp"
+  },
+  {
+    "id": "harry-potter-minerva-mcgonagall",
+    "name": "Minerva McGonagall",
+    "source": "https://ik.imagekit.io/hpapi/mcgonagall.jpg",
+    "file": "/images/harry-potter/minerva-mcgonagall.webp"
+  },
+  {
+    "id": "harry-potter-lord-voldemort",
+    "name": "Lord Voldemort",
+    "source": "https://ik.imagekit.io/hpapi/voldemort.jpg",
+    "file": "/images/harry-potter/lord-voldemort.webp"
+  },
+  {
+    "id": "harry-potter-fred-weasley",
+    "name": "Fred Weasley",
+    "source": "https://raw.githubusercontent.com/fedeperin/potterapi/main/public/images/characters/fred_weasley.png",
+    "file": "/images/harry-potter/fred-weasley.webp"
+  },
+  {
+    "id": "harry-potter-ginny-weasley",
+    "name": "Ginny Weasley",
+    "source": "https://ik.imagekit.io/hpapi/ginny.jpg",
+    "file": "/images/harry-potter/ginny-weasley.webp"
+  },
+  {
+    "id": "harry-potter-bellatrix-lestrange",
+    "name": "Bellatrix Lestrange",
+    "source": "https://ik.imagekit.io/hpapi/bellatrix.jpg",
+    "file": "/images/harry-potter/bellatrix-lestrange.webp"
+  },
+  {
+    "id": "harry-potter-dobby",
+    "name": "Dobby",
+    "source": "https://media.harrypotterfanzone.com/dobby-in-malfoy-manor.jpg",
+    "file": "/images/harry-potter/dobby.webp"
+  },
+  {
+    "id": "harry-potter-cedric-diggory",
+    "name": "Cedric Diggory",
+    "source": "https://ik.imagekit.io/hpapi/cedric.png",
+    "file": "/images/harry-potter/cedric-diggory.webp"
+  },
+  {
+    "id": "harry-potter-cho-chang",
+    "name": "Cho Chang",
+    "source": "https://ik.imagekit.io/hpapi/cho.jpg",
+    "file": "/images/harry-potter/cho-chang.webp"
+  },
+  {
+    "id": "harry-potter-remus-lupin",
+    "name": "Remus Lupin",
+    "source": "https://ik.imagekit.io/hpapi/lupin.jpg",
+    "file": "/images/harry-potter/remus-lupin.webp"
+  },
+  {
+    "id": "harry-potter-arthur-weasley",
+    "name": "Arthur Weasley",
+    "source": "https://ik.imagekit.io/hpapi/arthur.jpg",
+    "file": "/images/harry-potter/arthur-weasley.webp"
+  },
+  {
+    "id": "harry-potter-horace-slughorn",
+    "name": "Horace Slughorn",
+    "source": "https://ik.imagekit.io/hpapi/slughorn.JPG",
+    "file": "/images/harry-potter/horace-slughorn.webp"
+  },
+  {
+    "id": "harry-potter-kingsley-shacklebolt",
+    "name": "Kingsley Shacklebolt",
+    "source": "https://ik.imagekit.io/hpapi/kingsley.jpg",
+    "file": "/images/harry-potter/kingsley-shacklebolt.webp"
+  },
+  {
+    "id": "harry-potter-dolores-umbridge",
+    "name": "Dolores Umbridge",
+    "source": "https://ik.imagekit.io/hpapi/umbridge.jpg",
+    "file": "/images/harry-potter/dolores-umbridge.webp"
+  },
+  {
+    "id": "harry-potter-lucius-malfoy",
+    "name": "Lucius Malfoy",
+    "source": "https://ik.imagekit.io/hpapi/lucius.jpg",
+    "file": "/images/harry-potter/lucius-malfoy.webp"
+  },
+  {
+    "id": "harry-potter-vincent-crabbe",
+    "name": "Vincent Crabbe",
+    "source": "https://ik.imagekit.io/hpapi/crabbe.jpg",
+    "file": "/images/harry-potter/vincent-crabbe.webp"
+  },
+  {
+    "id": "harry-potter-gregory-goyle",
+    "name": "Gregory Goyle",
+    "source": "https://ik.imagekit.io/hpapi/goyle.jpg",
+    "file": "/images/harry-potter/gregory-goyle.webp"
+  },
+  {
+    "id": "harry-potter-argus-filch",
+    "name": "Argus Filch",
+    "source": "https://ik.imagekit.io/hpapi/filch.jpg",
+    "file": "/images/harry-potter/argus-filch.webp"
+  },
+  {
+    "id": "harry-potter-molly-weasley",
+    "name": "Molly Weasley",
+    "source": "https://raw.githubusercontent.com/fedeperin/potterapi/main/public/images/characters/molly_weasley.png",
+    "file": "/images/harry-potter/molly-weasley.webp"
+  },
+  {
+    "id": "harry-potter-nymphadora-tonks",
+    "name": "Nymphadora Tonks",
+    "source": "https://raw.githubusercontent.com/fedeperin/potterapi/main/public/images/characters/nymphadora_tonks.png",
+    "file": "/images/harry-potter/nymphadora-tonks.webp"
+  },
+  {
+    "id": "harry-potter-james-potter",
+    "name": "James Potter",
+    "source": "https://raw.githubusercontent.com/fedeperin/potterapi/main/public/images/characters/harry_potter.png",
+    "file": "/images/harry-potter/james-potter.webp"
+  },
+  {
+    "id": "harry-potter-bill-weasley",
+    "name": "Bill Weasley",
+    "source": "https://raw.githubusercontent.com/fedeperin/potterapi/main/public/images/characters/bill_weasley.png",
+    "file": "/images/harry-potter/bill-weasley.webp"
+  },
+  {
+    "id": "harry-potter-percy-weasley",
+    "name": "Percy Weasley",
+    "source": "https://raw.githubusercontent.com/fedeperin/potterapi/main/public/images/characters/percy_weasley.png",
+    "file": "/images/harry-potter/percy-weasley.webp"
+  },
+  {
+    "id": "avengers-iron-man",
+    "name": "Iron Man",
+    "source": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/346-iron-man.jpg",
+    "file": "/images/avengers/iron-man.webp"
+  },
+  {
+    "id": "avengers-captain-america",
+    "name": "Captain America",
+    "source": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/149-captain-america.jpg",
+    "file": "/images/avengers/captain-america.webp"
+  },
+  {
+    "id": "avengers-thor",
+    "name": "Thor",
+    "source": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/659-thor.jpg",
+    "file": "/images/avengers/thor.webp"
+  },
+  {
+    "id": "avengers-hulk",
+    "name": "Hulk",
+    "source": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/332-hulk.jpg",
+    "file": "/images/avengers/hulk.webp"
+  },
+  {
+    "id": "avengers-black-widow",
+    "name": "Black Widow",
+    "source": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/107-black-widow.jpg",
+    "file": "/images/avengers/black-widow.webp"
+  },
+  {
+    "id": "avengers-hawkeye",
+    "name": "Hawkeye",
+    "source": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/313-hawkeye.jpg",
+    "file": "/images/avengers/hawkeye.webp"
+  },
+  {
+    "id": "avengers-nick-fury",
+    "name": "Nick Fury",
+    "source": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/489-nick-fury.jpg",
+    "file": "/images/avengers/nick-fury.webp"
+  },
+  {
+    "id": "avengers-loki",
+    "name": "Loki",
+    "source": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/414-loki.jpg",
+    "file": "/images/avengers/loki.webp"
+  },
+  {
+    "id": "avengers-thanos",
+    "name": "Thanos",
+    "source": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/655-thanos.jpg",
+    "file": "/images/avengers/thanos.webp"
+  },
+  {
+    "id": "avengers-spider-man",
+    "name": "Spider-Man",
+    "source": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/620-spider-man.jpg",
+    "file": "/images/avengers/spider-man.webp"
+  },
+  {
+    "id": "avengers-doctor-strange",
+    "name": "Doctor Strange",
+    "source": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/226-doctor-strange.jpg",
+    "file": "/images/avengers/doctor-strange.webp"
+  },
+  {
+    "id": "avengers-black-panther",
+    "name": "Black Panther",
+    "source": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/106-black-panther.jpg",
+    "file": "/images/avengers/black-panther.webp"
+  },
+  {
+    "id": "avengers-scarlet-witch",
+    "name": "Scarlet Witch",
+    "source": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/579-scarlet-witch.jpg",
+    "file": "/images/avengers/scarlet-witch.webp"
+  },
+  {
+    "id": "avengers-ant-man-ii",
+    "name": "Ant-Man II",
+    "source": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/31-ant-man-ii.jpg",
+    "file": "/images/avengers/ant-man-ii.webp"
+  },
+  {
+    "id": "avengers-captain-marvel",
+    "name": "Captain Marvel",
+    "source": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/157-captain-marvel.jpg",
+    "file": "/images/avengers/captain-marvel.webp"
+  },
+  {
+    "id": "avengers-groot",
+    "name": "Groot",
+    "source": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/303-groot.jpg",
+    "file": "/images/avengers/groot.webp"
+  },
+  {
+    "id": "avengers-rocket-raccoon",
+    "name": "Rocket Raccoon",
+    "source": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/566-rocket-raccoon.jpg",
+    "file": "/images/avengers/rocket-raccoon.webp"
+  },
+  {
+    "id": "avengers-star-lord",
+    "name": "Star-Lord",
+    "source": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/630-star-lord.jpg",
+    "file": "/images/avengers/star-lord.webp"
+  },
+  {
+    "id": "avengers-gamora",
+    "name": "Gamora",
+    "source": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/275-gamora.jpg",
+    "file": "/images/avengers/gamora.webp"
+  },
+  {
+    "id": "avengers-drax-the-destroyer",
+    "name": "Drax the Destroyer",
+    "source": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/234-drax-the-destroyer.jpg",
+    "file": "/images/avengers/drax-the-destroyer.webp"
+  },
+  {
+    "id": "avengers-vision",
+    "name": "Vision",
+    "source": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/697-vision.jpg",
+    "file": "/images/avengers/vision.webp"
+  },
+  {
+    "id": "avengers-falcon",
+    "name": "Falcon",
+    "source": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/251-falcon.jpg",
+    "file": "/images/avengers/falcon.webp"
+  },
+  {
+    "id": "avengers-winter-soldier",
+    "name": "Winter Soldier",
+    "source": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/714-winter-soldier.jpg",
+    "file": "/images/avengers/winter-soldier.webp"
+  },
+  {
+    "id": "avengers-war-machine",
+    "name": "War Machine",
+    "source": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/703-war-machine.jpg",
+    "file": "/images/avengers/war-machine.webp"
+  },
+  {
+    "id": "avengers-wasp",
+    "name": "Wasp",
+    "source": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/708-wasp.jpg",
+    "file": "/images/avengers/wasp.webp"
+  },
+  {
+    "id": "avengers-quicksilver",
+    "name": "Quicksilver",
+    "source": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/536-quicksilver.jpg",
+    "file": "/images/avengers/quicksilver.webp"
+  },
+  {
+    "id": "avengers-ultron",
+    "name": "Ultron",
+    "source": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/680-ultron.jpg",
+    "file": "/images/avengers/ultron.webp"
+  },
+  {
+    "id": "avengers-deadpool",
+    "name": "Deadpool",
+    "source": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/213-deadpool.jpg",
+    "file": "/images/avengers/deadpool.webp"
+  },
+  {
+    "id": "avengers-wolverine",
+    "name": "Wolverine",
+    "source": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/717-wolverine.jpg",
+    "file": "/images/avengers/wolverine.webp"
+  },
+  {
+    "id": "avengers-doctor-doom",
+    "name": "Doctor Doom",
+    "source": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/222-doctor-doom.jpg",
+    "file": "/images/avengers/doctor-doom.webp"
+  },
+  {
+    "id": "avengers-silver-surfer",
+    "name": "Silver Surfer",
+    "source": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/598-silver-surfer.jpg",
+    "file": "/images/avengers/silver-surfer.webp"
+  },
+  {
+    "id": "avengers-venom",
+    "name": "Venom",
+    "source": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/687-venom.jpg",
+    "file": "/images/avengers/venom.webp"
+  }
+]

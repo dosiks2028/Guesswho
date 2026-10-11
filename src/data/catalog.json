@@ -1,0 +1,1304 @@
+[
+  {
+    "id": "attack-on-titan",
+    "title": "Атака титанов",
+    "titleEn": "Attack on Titan",
+    "subtitle": "За пределами стен",
+    "subtitleEn": "Beyond the walls",
+    "color": "#8da99b",
+    "characters": [
+      {
+        "id": "attack-on-titan-eren-jaeger",
+        "name": "Эрен Йегер",
+        "nameEn": "Eren Jaeger",
+        "img": "/images/attack-on-titan/eren-jaeger.webp",
+        "traits": [
+          "male",
+          "dark"
+        ]
+      },
+      {
+        "id": "attack-on-titan-mikasa-ackermann",
+        "name": "Микаса Аккерман",
+        "nameEn": "Mikasa Ackermann",
+        "img": "/images/attack-on-titan/mikasa-ackermann.webp",
+        "traits": [
+          "female",
+          "dark"
+        ]
+      },
+      {
+        "id": "attack-on-titan-armin-arlelt",
+        "name": "Армин Арлерт",
+        "nameEn": "Armin Arlelt",
+        "img": "/images/attack-on-titan/armin-arlelt.webp",
+        "traits": [
+          "male",
+          "light"
+        ]
+      },
+      {
+        "id": "attack-on-titan-levi-ackermann",
+        "name": "Леви Аккерман",
+        "nameEn": "Levi Ackermann",
+        "img": "/images/attack-on-titan/levi-ackermann.webp",
+        "traits": [
+          "male",
+          "dark"
+        ]
+      },
+      {
+        "id": "attack-on-titan-erwin-smith",
+        "name": "Эрвин Смит",
+        "nameEn": "Erwin Smith",
+        "img": "/images/attack-on-titan/erwin-smith.webp",
+        "traits": [
+          "male",
+          "light"
+        ]
+      },
+      {
+        "id": "attack-on-titan-reiner-braun",
+        "name": "Райнер Браун",
+        "nameEn": "Reiner Braun",
+        "img": "/images/attack-on-titan/reiner-braun.webp",
+        "traits": [
+          "male",
+          "light"
+        ]
+      },
+      {
+        "id": "attack-on-titan-bertholdt-hoover",
+        "name": "Бертольд Гувер",
+        "nameEn": "Bertholdt Hoover",
+        "img": "/images/attack-on-titan/bertholdt-hoover.webp",
+        "traits": [
+          "male",
+          "dark"
+        ]
+      },
+      {
+        "id": "attack-on-titan-annie-leonhart",
+        "name": "Энни Леонхарт",
+        "nameEn": "Annie Leonhart",
+        "img": "/images/attack-on-titan/annie-leonhart.webp",
+        "traits": [
+          "female",
+          "light"
+        ]
+      },
+      {
+        "id": "attack-on-titan-jean-kirschtein",
+        "name": "Жан Кирштайн",
+        "nameEn": "Jean Kirschtein",
+        "img": "/images/attack-on-titan/jean-kirschtein.webp",
+        "traits": [
+          "male",
+          "light"
+        ]
+      },
+      {
+        "id": "attack-on-titan-conny-springer",
+        "name": "Конни Спрингер",
+        "nameEn": "Conny Springer",
+        "img": "/images/attack-on-titan/conny-springer.webp",
+        "traits": [
+          "male"
+        ]
+      },
+      {
+        "id": "attack-on-titan-sasha-braus",
+        "name": "Саша Браус",
+        "nameEn": "Sasha Braus",
+        "img": "/images/attack-on-titan/sasha-braus.webp",
+        "traits": [
+          "female",
+          "dark"
+        ]
+      },
+      {
+        "id": "attack-on-titan-historia-reiss",
+        "name": "Хистория Рейсс",
+        "nameEn": "Historia Reiss",
+        "img": "/images/attack-on-titan/historia-reiss.webp",
+        "traits": [
+          "female",
+          "light"
+        ]
+      },
+      {
+        "id": "attack-on-titan-ymir",
+        "name": "Имир",
+        "nameEn": "Ymir",
+        "img": "/images/attack-on-titan/ymir.webp",
+        "traits": [
+          "female",
+          "dark"
+        ]
+      },
+      {
+        "id": "attack-on-titan-hange-zoe",
+        "name": "Ханджи Зоэ",
+        "nameEn": "Hange Zoë",
+        "img": "/images/attack-on-titan/hange-zoe.webp",
+        "traits": [
+          "female",
+          "dark",
+          "glasses"
+        ]
+      },
+      {
+        "id": "attack-on-titan-zeke-jaeger",
+        "name": "Зик Йегер",
+        "nameEn": "Zeke Jaeger",
+        "img": "/images/attack-on-titan/zeke-jaeger.webp",
+        "traits": [
+          "male",
+          "light",
+          "glasses"
+        ]
+      },
+      {
+        "id": "attack-on-titan-grisha-jaeger",
+        "name": "Гриша Йегер",
+        "nameEn": "Grisha Jaeger",
+        "img": "/images/attack-on-titan/grisha-jaeger.webp",
+        "traits": [
+          "male",
+          "dark",
+          "glasses"
+        ]
+      },
+      {
+        "id": "attack-on-titan-gabi-braun",
+        "name": "Габи Браун",
+        "nameEn": "Gabi Braun",
+        "img": "/images/attack-on-titan/gabi-braun.webp",
+        "traits": [
+          "female",
+          "dark"
+        ]
+      },
+      {
+        "id": "attack-on-titan-pieck-finger",
+        "name": "Пик Фингер",
+        "nameEn": "Pieck Finger",
+        "img": "/images/attack-on-titan/pieck-finger.webp",
+        "traits": [
+          "female",
+          "dark"
+        ]
+      },
+      {
+        "id": "attack-on-titan-porco-galliard",
+        "name": "Порко Галлиард",
+        "nameEn": "Porco Galliard",
+        "img": "/images/attack-on-titan/porco-galliard.webp",
+        "traits": [
+          "male",
+          "light"
+        ]
+      },
+      {
+        "id": "attack-on-titan-floch-forster",
+        "name": "Флок Форстер",
+        "nameEn": "Floch Forster",
+        "img": "/images/attack-on-titan/floch-forster.webp",
+        "traits": [
+          "male"
+        ]
+      },
+      {
+        "id": "attack-on-titan-kenny-ackermann",
+        "name": "Кенни Аккерман",
+        "nameEn": "Kenny Ackermann",
+        "img": "/images/attack-on-titan/kenny-ackermann.webp",
+        "traits": [
+          "male",
+          "dark"
+        ]
+      },
+      {
+        "id": "attack-on-titan-falco-grice",
+        "name": "Фалько Грайс",
+        "nameEn": "Falco Grice",
+        "img": "/images/attack-on-titan/falco-grice.webp",
+        "traits": [
+          "male",
+          "light"
+        ]
+      },
+      {
+        "id": "attack-on-titan-dot-pyxis",
+        "name": "Дот Пиксис",
+        "nameEn": "Dot Pyxis",
+        "img": "/images/attack-on-titan/dot-pyxis.webp",
+        "traits": [
+          "male"
+        ]
+      },
+      {
+        "id": "attack-on-titan-marco-bodt",
+        "name": "Марко Ботт",
+        "nameEn": "Marco Bodt",
+        "img": "/images/attack-on-titan/marco-bodt.webp",
+        "traits": [
+          "male",
+          "dark"
+        ]
+      },
+      {
+        "id": "attack-on-titan-petra-rall",
+        "name": "Петра Рал",
+        "nameEn": "Petra Rall",
+        "img": "/images/attack-on-titan/petra-rall.webp",
+        "traits": [
+          "female"
+        ]
+      },
+      {
+        "id": "attack-on-titan-hitch-dreyse",
+        "name": "Хитч Дрейс",
+        "nameEn": "Hitch Dreyse",
+        "img": "/images/attack-on-titan/hitch-dreyse.webp",
+        "traits": [
+          "female",
+          "light"
+        ]
+      },
+      {
+        "id": "attack-on-titan-marlo-freudenberg",
+        "name": "Марло Фройденберг",
+        "nameEn": "Marlo Freudenberg",
+        "img": "/images/attack-on-titan/marlo-freudenberg.webp",
+        "traits": [
+          "male",
+          "dark"
+        ]
+      },
+      {
+        "id": "attack-on-titan-hannes",
+        "name": "Ханнес",
+        "nameEn": "Hannes",
+        "img": "/images/attack-on-titan/hannes.webp",
+        "traits": [
+          "male",
+          "light"
+        ]
+      },
+      {
+        "id": "attack-on-titan-carla-jaeger",
+        "name": "Карла Йегер",
+        "nameEn": "Carla Jaeger",
+        "img": "/images/attack-on-titan/carla-jaeger.webp",
+        "traits": [
+          "female",
+          "dark"
+        ]
+      },
+      {
+        "id": "attack-on-titan-rod-reiss",
+        "name": "Род Рейсс",
+        "nameEn": "Rod Reiss",
+        "img": "/images/attack-on-titan/rod-reiss.webp",
+        "traits": [
+          "male",
+          "dark"
+        ]
+      },
+      {
+        "id": "attack-on-titan-yelena",
+        "name": "Елена",
+        "nameEn": "Yelena",
+        "img": "/images/attack-on-titan/yelena.webp",
+        "traits": [
+          "female",
+          "light"
+        ]
+      },
+      {
+        "id": "attack-on-titan-onyankopon",
+        "name": "Оньянкопон",
+        "nameEn": "Onyankopon",
+        "img": "/images/attack-on-titan/onyankopon.webp",
+        "traits": [
+          "male",
+          "dark"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "naruto",
+    "title": "Наруто",
+    "titleEn": "Naruto",
+    "subtitle": "Твой путь ниндзя",
+    "subtitleEn": "Your ninja way",
+    "color": "#dd955c",
+    "characters": [
+      {
+        "id": "naruto-naruto-uzumaki",
+        "name": "Наруто Узумаки",
+        "nameEn": "Naruto Uzumaki",
+        "img": "/images/naruto/naruto-uzumaki.webp",
+        "traits": [
+          "male",
+          "light"
+        ]
+      },
+      {
+        "id": "naruto-sasuke-uchiha",
+        "name": "Саске Учиха",
+        "nameEn": "Sasuke Uchiha",
+        "img": "/images/naruto/sasuke-uchiha.webp",
+        "traits": [
+          "male",
+          "dark"
+        ]
+      },
+      {
+        "id": "naruto-sakura-haruno",
+        "name": "Сакура Харуно",
+        "nameEn": "Sakura Haruno",
+        "img": "/images/naruto/sakura-haruno.webp",
+        "traits": [
+          "female"
+        ]
+      },
+      {
+        "id": "naruto-kakashi-hatake",
+        "name": "Какаши Хатакэ",
+        "nameEn": "Kakashi Hatake",
+        "img": "/images/naruto/kakashi-hatake.webp",
+        "traits": [
+          "male",
+          "light"
+        ]
+      },
+      {
+        "id": "naruto-itachi-uchiha",
+        "name": "Итачи Учиха",
+        "nameEn": "Itachi Uchiha",
+        "img": "/images/naruto/itachi-uchiha.webp",
+        "traits": [
+          "male",
+          "dark"
+        ]
+      },
+      {
+        "id": "naruto-hinata-hyuga",
+        "name": "Хината Хьюга",
+        "nameEn": "Hinata Hyūga",
+        "img": "/images/naruto/hinata-hyuga.webp",
+        "traits": [
+          "female",
+          "dark"
+        ]
+      },
+      {
+        "id": "naruto-gaara",
+        "name": "Гаара",
+        "nameEn": "Gaara",
+        "img": "/images/naruto/gaara.webp",
+        "traits": [
+          "male"
+        ]
+      },
+      {
+        "id": "naruto-rock-lee",
+        "name": "Рок Ли",
+        "nameEn": "Rock Lee",
+        "img": "/images/naruto/rock-lee.webp",
+        "traits": [
+          "male",
+          "dark"
+        ]
+      },
+      {
+        "id": "naruto-shikamaru-nara",
+        "name": "Шикамару Нара",
+        "nameEn": "Shikamaru Nara",
+        "img": "/images/naruto/shikamaru-nara.webp",
+        "traits": [
+          "male",
+          "dark"
+        ]
+      },
+      {
+        "id": "naruto-jiraiya",
+        "name": "Джирайя",
+        "nameEn": "Jiraiya",
+        "img": "/images/naruto/jiraiya.webp",
+        "traits": [
+          "male",
+          "light"
+        ]
+      },
+      {
+        "id": "naruto-tsunade",
+        "name": "Цунаде",
+        "nameEn": "Tsunade",
+        "img": "/images/naruto/tsunade.webp",
+        "traits": [
+          "female",
+          "light"
+        ]
+      },
+      {
+        "id": "naruto-orochimaru",
+        "name": "Орочимару",
+        "nameEn": "Orochimaru",
+        "img": "/images/naruto/orochimaru.webp",
+        "traits": [
+          "male",
+          "dark"
+        ]
+      },
+      {
+        "id": "naruto-minato-namikaze",
+        "name": "Минато Намикадзе",
+        "nameEn": "Minato Namikaze",
+        "img": "/images/naruto/minato-namikaze.webp",
+        "traits": [
+          "male",
+          "light"
+        ]
+      },
+      {
+        "id": "naruto-madara-uchiha",
+        "name": "Мадара Учиха",
+        "nameEn": "Madara Uchiha",
+        "img": "/images/naruto/madara-uchiha.webp",
+        "traits": [
+          "male",
+          "dark"
+        ]
+      },
+      {
+        "id": "naruto-neji-hyuga",
+        "name": "Нэджи Хьюга",
+        "nameEn": "Neji Hyūga",
+        "img": "/images/naruto/neji-hyuga.webp",
+        "traits": [
+          "male",
+          "dark"
+        ]
+      },
+      {
+        "id": "naruto-tobirama-senju",
+        "name": "Тобирама Сенджу",
+        "nameEn": "Tobirama Senju",
+        "img": "/images/naruto/tobirama-senju.webp",
+        "traits": [
+          "male",
+          "light"
+        ]
+      },
+      {
+        "id": "naruto-obito-uchiha",
+        "name": "Обито Учиха",
+        "nameEn": "Obito Uchiha",
+        "img": "/images/naruto/obito-uchiha.webp",
+        "traits": [
+          "male",
+          "dark"
+        ]
+      },
+      {
+        "id": "naruto-might-guy",
+        "name": "Майто Гай",
+        "nameEn": "Might Guy",
+        "img": "/images/naruto/might-guy.webp",
+        "traits": [
+          "male",
+          "dark"
+        ]
+      },
+      {
+        "id": "naruto-ino-yamanaka",
+        "name": "Ино Яманака",
+        "nameEn": "Ino Yamanaka",
+        "img": "/images/naruto/ino-yamanaka.webp",
+        "traits": [
+          "female",
+          "light"
+        ]
+      },
+      {
+        "id": "naruto-temari",
+        "name": "Темари",
+        "nameEn": "Temari",
+        "img": "/images/naruto/temari.webp",
+        "traits": [
+          "female",
+          "light"
+        ]
+      },
+      {
+        "id": "naruto-tenten",
+        "name": "Тен-Тен",
+        "nameEn": "Tenten",
+        "img": "/images/naruto/tenten.webp",
+        "traits": [
+          "female",
+          "dark"
+        ]
+      },
+      {
+        "id": "naruto-deidara",
+        "name": "Дейдара",
+        "nameEn": "Deidara",
+        "img": "/images/naruto/deidara.webp",
+        "traits": [
+          "male",
+          "light"
+        ]
+      },
+      {
+        "id": "naruto-kisame-hoshigaki",
+        "name": "Кисаме Хошигаки",
+        "nameEn": "Kisame Hoshigaki",
+        "img": "/images/naruto/kisame-hoshigaki.webp",
+        "traits": [
+          "male",
+          "dark"
+        ]
+      },
+      {
+        "id": "naruto-sasori",
+        "name": "Сасори",
+        "nameEn": "Sasori",
+        "img": "/images/naruto/sasori.webp",
+        "traits": [
+          "male"
+        ]
+      },
+      {
+        "id": "naruto-sai",
+        "name": "Сай",
+        "nameEn": "Sai",
+        "img": "/images/naruto/sai.webp",
+        "traits": [
+          "male",
+          "dark"
+        ]
+      },
+      {
+        "id": "naruto-kabuto-yakushi",
+        "name": "Кабуто Якуши",
+        "nameEn": "Kabuto Yakushi",
+        "img": "/images/naruto/kabuto-yakushi.webp",
+        "traits": [
+          "male",
+          "light",
+          "glasses"
+        ]
+      },
+      {
+        "id": "naruto-hashirama-senju",
+        "name": "Хаширама Сенджу",
+        "nameEn": "Hashirama Senju",
+        "img": "/images/naruto/hashirama-senju.webp",
+        "traits": [
+          "male",
+          "dark"
+        ]
+      },
+      {
+        "id": "naruto-kiba-inuzuka",
+        "name": "Киба Инузука",
+        "nameEn": "Kiba Inuzuka",
+        "img": "/images/naruto/kiba-inuzuka.webp",
+        "traits": [
+          "male",
+          "dark"
+        ]
+      },
+      {
+        "id": "naruto-shino-aburame",
+        "name": "Шино Абураме",
+        "nameEn": "Shino Aburame",
+        "img": "/images/naruto/shino-aburame.webp",
+        "traits": [
+          "male",
+          "dark",
+          "glasses"
+        ]
+      },
+      {
+        "id": "naruto-choji-akimichi",
+        "name": "Чоджи Акимичи",
+        "nameEn": "Chōji Akimichi",
+        "img": "/images/naruto/choji-akimichi.webp",
+        "traits": [
+          "male",
+          "dark"
+        ]
+      },
+      {
+        "id": "naruto-konan",
+        "name": "Конан",
+        "nameEn": "Konan",
+        "img": "/images/naruto/konan.webp",
+        "traits": [
+          "female"
+        ]
+      },
+      {
+        "id": "naruto-killer-b",
+        "name": "Киллер Би",
+        "nameEn": "Killer B",
+        "img": "/images/naruto/killer-b.webp",
+        "traits": [
+          "male",
+          "light",
+          "glasses"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "harry-potter",
+    "title": "Гарри Поттер",
+    "titleEn": "Harry Potter",
+    "subtitle": "Магия в каждом вопросе",
+    "subtitleEn": "A little question of magic",
+    "color": "#ab92c5",
+    "characters": [
+      {
+        "id": "harry-potter-harry-potter",
+        "name": "Гарри Поттер",
+        "nameEn": "Harry Potter",
+        "img": "/images/harry-potter/harry-potter.webp",
+        "traits": [
+          "male",
+          "dark",
+          "glasses"
+        ]
+      },
+      {
+        "id": "harry-potter-hermione-granger",
+        "name": "Гермиона Грейнджер",
+        "nameEn": "Hermione Granger",
+        "img": "/images/harry-potter/hermione-granger.webp",
+        "traits": [
+          "female",
+          "dark"
+        ]
+      },
+      {
+        "id": "harry-potter-ron-weasley",
+        "name": "Рон Уизли",
+        "nameEn": "Ron Weasley",
+        "img": "/images/harry-potter/ron-weasley.webp",
+        "traits": [
+          "male"
+        ]
+      },
+      {
+        "id": "harry-potter-albus-dumbledore",
+        "name": "Альбус Дамблдор",
+        "nameEn": "Albus Dumbledore",
+        "img": "/images/harry-potter/albus-dumbledore.webp",
+        "traits": [
+          "male",
+          "glasses"
+        ]
+      },
+      {
+        "id": "harry-potter-severus-snape",
+        "name": "Северус Снейп",
+        "nameEn": "Severus Snape",
+        "img": "/images/harry-potter/severus-snape.webp",
+        "traits": [
+          "male",
+          "dark"
+        ]
+      },
+      {
+        "id": "harry-potter-draco-malfoy",
+        "name": "Драко Малфой",
+        "nameEn": "Draco Malfoy",
+        "img": "/images/harry-potter/draco-malfoy.webp",
+        "traits": [
+          "male",
+          "light"
+        ]
+      },
+      {
+        "id": "harry-potter-sirius-black",
+        "name": "Сириус Блэк",
+        "nameEn": "Sirius Black",
+        "img": "/images/harry-potter/sirius-black.webp",
+        "traits": [
+          "male",
+          "dark"
+        ]
+      },
+      {
+        "id": "harry-potter-rubeus-hagrid",
+        "name": "Рубеус Хагрид",
+        "nameEn": "Rubeus Hagrid",
+        "img": "/images/harry-potter/rubeus-hagrid.webp",
+        "traits": [
+          "male",
+          "dark"
+        ]
+      },
+      {
+        "id": "harry-potter-luna-lovegood",
+        "name": "Полумна Лавгуд",
+        "nameEn": "Luna Lovegood",
+        "img": "/images/harry-potter/luna-lovegood.webp",
+        "traits": [
+          "female",
+          "light"
+        ]
+      },
+      {
+        "id": "harry-potter-neville-longbottom",
+        "name": "Невилл Долгопупс",
+        "nameEn": "Neville Longbottom",
+        "img": "/images/harry-potter/neville-longbottom.webp",
+        "traits": [
+          "male",
+          "light"
+        ]
+      },
+      {
+        "id": "harry-potter-minerva-mcgonagall",
+        "name": "Минерва Макгонагалл",
+        "nameEn": "Minerva McGonagall",
+        "img": "/images/harry-potter/minerva-mcgonagall.webp",
+        "traits": [
+          "female",
+          "dark",
+          "glasses"
+        ]
+      },
+      {
+        "id": "harry-potter-lord-voldemort",
+        "name": "Лорд Волдеморт",
+        "nameEn": "Lord Voldemort",
+        "img": "/images/harry-potter/lord-voldemort.webp",
+        "traits": [
+          "male"
+        ]
+      },
+      {
+        "id": "harry-potter-fred-weasley",
+        "name": "Фред Уизли",
+        "nameEn": "Fred Weasley",
+        "img": "/images/harry-potter/fred-weasley.webp",
+        "traits": [
+          "male"
+        ]
+      },
+      {
+        "id": "harry-potter-ginny-weasley",
+        "name": "Джинни Уизли",
+        "nameEn": "Ginny Weasley",
+        "img": "/images/harry-potter/ginny-weasley.webp",
+        "traits": [
+          "female"
+        ]
+      },
+      {
+        "id": "harry-potter-bellatrix-lestrange",
+        "name": "Беллатриса Лестрейндж",
+        "nameEn": "Bellatrix Lestrange",
+        "img": "/images/harry-potter/bellatrix-lestrange.webp",
+        "traits": [
+          "female",
+          "dark"
+        ]
+      },
+      {
+        "id": "harry-potter-dobby",
+        "name": "Добби",
+        "nameEn": "Dobby",
+        "img": "/images/harry-potter/dobby.webp",
+        "traits": [
+          "male"
+        ]
+      },
+      {
+        "id": "harry-potter-cedric-diggory",
+        "name": "Седрик Диггори",
+        "nameEn": "Cedric Diggory",
+        "img": "/images/harry-potter/cedric-diggory.webp",
+        "traits": [
+          "male",
+          "dark"
+        ]
+      },
+      {
+        "id": "harry-potter-cho-chang",
+        "name": "Чжоу Чанг",
+        "nameEn": "Cho Chang",
+        "img": "/images/harry-potter/cho-chang.webp",
+        "traits": [
+          "female",
+          "dark"
+        ]
+      },
+      {
+        "id": "harry-potter-remus-lupin",
+        "name": "Римус Люпин",
+        "nameEn": "Remus Lupin",
+        "img": "/images/harry-potter/remus-lupin.webp",
+        "traits": [
+          "male",
+          "dark"
+        ]
+      },
+      {
+        "id": "harry-potter-arthur-weasley",
+        "name": "Артур Уизли",
+        "nameEn": "Arthur Weasley",
+        "img": "/images/harry-potter/arthur-weasley.webp",
+        "traits": [
+          "male",
+          "glasses"
+        ]
+      },
+      {
+        "id": "harry-potter-horace-slughorn",
+        "name": "Гораций Слизнорт",
+        "nameEn": "Horace Slughorn",
+        "img": "/images/harry-potter/horace-slughorn.webp",
+        "traits": [
+          "male",
+          "light"
+        ]
+      },
+      {
+        "id": "harry-potter-kingsley-shacklebolt",
+        "name": "Кингсли Бруствер",
+        "nameEn": "Kingsley Shacklebolt",
+        "img": "/images/harry-potter/kingsley-shacklebolt.webp",
+        "traits": [
+          "male",
+          "dark"
+        ]
+      },
+      {
+        "id": "harry-potter-dolores-umbridge",
+        "name": "Долорес Амбридж",
+        "nameEn": "Dolores Umbridge",
+        "img": "/images/harry-potter/dolores-umbridge.webp",
+        "traits": [
+          "female",
+          "light"
+        ]
+      },
+      {
+        "id": "harry-potter-lucius-malfoy",
+        "name": "Люциус Малфой",
+        "nameEn": "Lucius Malfoy",
+        "img": "/images/harry-potter/lucius-malfoy.webp",
+        "traits": [
+          "male",
+          "light"
+        ]
+      },
+      {
+        "id": "harry-potter-vincent-crabbe",
+        "name": "Винсент Крэбб",
+        "nameEn": "Vincent Crabbe",
+        "img": "/images/harry-potter/vincent-crabbe.webp",
+        "traits": [
+          "male",
+          "dark"
+        ]
+      },
+      {
+        "id": "harry-potter-gregory-goyle",
+        "name": "Грегори Гойл",
+        "nameEn": "Gregory Goyle",
+        "img": "/images/harry-potter/gregory-goyle.webp",
+        "traits": [
+          "male",
+          "dark"
+        ]
+      },
+      {
+        "id": "harry-potter-argus-filch",
+        "name": "Аргус Филч",
+        "nameEn": "Argus Filch",
+        "img": "/images/harry-potter/argus-filch.webp",
+        "traits": [
+          "male",
+          "light"
+        ]
+      },
+      {
+        "id": "harry-potter-molly-weasley",
+        "name": "Молли Уизли",
+        "nameEn": "Molly Weasley",
+        "img": "/images/harry-potter/molly-weasley.webp",
+        "traits": [
+          "female"
+        ]
+      },
+      {
+        "id": "harry-potter-nymphadora-tonks",
+        "name": "Нимфадора Тонкс",
+        "nameEn": "Nymphadora Tonks",
+        "img": "/images/harry-potter/nymphadora-tonks.webp",
+        "traits": [
+          "female",
+          "dark"
+        ]
+      },
+      {
+        "id": "harry-potter-james-potter",
+        "name": "Джеймс Поттер",
+        "nameEn": "James Potter",
+        "img": "/images/harry-potter/james-potter.webp",
+        "traits": [
+          "male",
+          "dark",
+          "glasses"
+        ]
+      },
+      {
+        "id": "harry-potter-bill-weasley",
+        "name": "Билл Уизли",
+        "nameEn": "Bill Weasley",
+        "img": "/images/harry-potter/bill-weasley.webp",
+        "traits": [
+          "male"
+        ]
+      },
+      {
+        "id": "harry-potter-percy-weasley",
+        "name": "Перси Уизли",
+        "nameEn": "Percy Weasley",
+        "img": "/images/harry-potter/percy-weasley.webp",
+        "traits": [
+          "male",
+          "glasses"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "avengers",
+    "title": "Мстители",
+    "titleEn": "Avengers",
+    "subtitle": "Герои среди нас",
+    "subtitleEn": "Heroes among us",
+    "color": "#7ca7c5",
+    "characters": [
+      {
+        "id": "avengers-iron-man",
+        "name": "Тони Старк",
+        "nameEn": "Iron Man",
+        "img": "/images/avengers/iron-man.webp",
+        "traits": [
+          "male",
+          "dark"
+        ]
+      },
+      {
+        "id": "avengers-captain-america",
+        "name": "Стив Роджерс",
+        "nameEn": "Captain America",
+        "img": "/images/avengers/captain-america.webp",
+        "traits": [
+          "male",
+          "light"
+        ]
+      },
+      {
+        "id": "avengers-thor",
+        "name": "Тор",
+        "nameEn": "Thor",
+        "img": "/images/avengers/thor.webp",
+        "traits": [
+          "male",
+          "light"
+        ]
+      },
+      {
+        "id": "avengers-hulk",
+        "name": "Брюс Беннер",
+        "nameEn": "Hulk",
+        "img": "/images/avengers/hulk.webp",
+        "traits": [
+          "male"
+        ]
+      },
+      {
+        "id": "avengers-black-widow",
+        "name": "Наташа Романофф",
+        "nameEn": "Black Widow",
+        "img": "/images/avengers/black-widow.webp",
+        "traits": [
+          "female"
+        ]
+      },
+      {
+        "id": "avengers-hawkeye",
+        "name": "Клинт Бартон",
+        "nameEn": "Hawkeye",
+        "img": "/images/avengers/hawkeye.webp",
+        "traits": [
+          "male",
+          "light"
+        ]
+      },
+      {
+        "id": "avengers-nick-fury",
+        "name": "Ник Фьюри",
+        "nameEn": "Nick Fury",
+        "img": "/images/avengers/nick-fury.webp",
+        "traits": [
+          "male"
+        ]
+      },
+      {
+        "id": "avengers-loki",
+        "name": "Локи",
+        "nameEn": "Loki",
+        "img": "/images/avengers/loki.webp",
+        "traits": [
+          "male",
+          "dark"
+        ]
+      },
+      {
+        "id": "avengers-thanos",
+        "name": "Танос",
+        "nameEn": "Thanos",
+        "img": "/images/avengers/thanos.webp",
+        "traits": [
+          "male"
+        ]
+      },
+      {
+        "id": "avengers-spider-man",
+        "name": "Питер Паркер",
+        "nameEn": "Spider-Man",
+        "img": "/images/avengers/spider-man.webp",
+        "traits": [
+          "male",
+          "dark"
+        ]
+      },
+      {
+        "id": "avengers-doctor-strange",
+        "name": "Стивен Стрэндж",
+        "nameEn": "Doctor Strange",
+        "img": "/images/avengers/doctor-strange.webp",
+        "traits": [
+          "male",
+          "dark"
+        ]
+      },
+      {
+        "id": "avengers-black-panther",
+        "name": "Т’Чалла",
+        "nameEn": "Black Panther",
+        "img": "/images/avengers/black-panther.webp",
+        "traits": [
+          "male",
+          "dark"
+        ]
+      },
+      {
+        "id": "avengers-scarlet-witch",
+        "name": "Ванда Максимофф",
+        "nameEn": "Scarlet Witch",
+        "img": "/images/avengers/scarlet-witch.webp",
+        "traits": [
+          "female",
+          "dark"
+        ]
+      },
+      {
+        "id": "avengers-ant-man-ii",
+        "name": "Скотт Лэнг",
+        "nameEn": "Ant-Man II",
+        "img": "/images/avengers/ant-man-ii.webp",
+        "traits": [
+          "male",
+          "light"
+        ]
+      },
+      {
+        "id": "avengers-captain-marvel",
+        "name": "Кэрол Дэнверс",
+        "nameEn": "Captain Marvel",
+        "img": "/images/avengers/captain-marvel.webp",
+        "traits": [
+          "female",
+          "light"
+        ]
+      },
+      {
+        "id": "avengers-groot",
+        "name": "Грут",
+        "nameEn": "Groot",
+        "img": "/images/avengers/groot.webp",
+        "traits": [
+          "male"
+        ]
+      },
+      {
+        "id": "avengers-rocket-raccoon",
+        "name": "Ракета",
+        "nameEn": "Rocket Raccoon",
+        "img": "/images/avengers/rocket-raccoon.webp",
+        "traits": [
+          "male",
+          "dark"
+        ]
+      },
+      {
+        "id": "avengers-star-lord",
+        "name": "Звёздный Лорд",
+        "nameEn": "Star-Lord",
+        "img": "/images/avengers/star-lord.webp",
+        "traits": [
+          "male",
+          "light"
+        ]
+      },
+      {
+        "id": "avengers-gamora",
+        "name": "Гамора",
+        "nameEn": "Gamora",
+        "img": "/images/avengers/gamora.webp",
+        "traits": [
+          "female",
+          "dark"
+        ]
+      },
+      {
+        "id": "avengers-drax-the-destroyer",
+        "name": "Дракс",
+        "nameEn": "Drax the Destroyer",
+        "img": "/images/avengers/drax-the-destroyer.webp",
+        "traits": [
+          "male"
+        ]
+      },
+      {
+        "id": "avengers-vision",
+        "name": "Вижн",
+        "nameEn": "Vision",
+        "img": "/images/avengers/vision.webp",
+        "traits": [
+          "male"
+        ]
+      },
+      {
+        "id": "avengers-falcon",
+        "name": "Сэм Уилсон",
+        "nameEn": "Falcon",
+        "img": "/images/avengers/falcon.webp",
+        "traits": [
+          "male",
+          "dark"
+        ]
+      },
+      {
+        "id": "avengers-winter-soldier",
+        "name": "Баки Барнс",
+        "nameEn": "Winter Soldier",
+        "img": "/images/avengers/winter-soldier.webp",
+        "traits": [
+          "male",
+          "dark"
+        ]
+      },
+      {
+        "id": "avengers-war-machine",
+        "name": "Джеймс Роудс",
+        "nameEn": "War Machine",
+        "img": "/images/avengers/war-machine.webp",
+        "traits": [
+          "male",
+          "dark"
+        ]
+      },
+      {
+        "id": "avengers-wasp",
+        "name": "Оса",
+        "nameEn": "Wasp",
+        "img": "/images/avengers/wasp.webp",
+        "traits": [
+          "female"
+        ]
+      },
+      {
+        "id": "avengers-quicksilver",
+        "name": "Ртуть",
+        "nameEn": "Quicksilver",
+        "img": "/images/avengers/quicksilver.webp",
+        "traits": [
+          "male",
+          "light"
+        ]
+      },
+      {
+        "id": "avengers-ultron",
+        "name": "Альтрон",
+        "nameEn": "Ultron",
+        "img": "/images/avengers/ultron.webp",
+        "traits": [
+          "male"
+        ]
+      },
+      {
+        "id": "avengers-deadpool",
+        "name": "Дэдпул",
+        "nameEn": "Deadpool",
+        "img": "/images/avengers/deadpool.webp",
+        "traits": [
+          "male"
+        ]
+      },
+      {
+        "id": "avengers-wolverine",
+        "name": "Росомаха",
+        "nameEn": "Wolverine",
+        "img": "/images/avengers/wolverine.webp",
+        "traits": [
+          "male",
+          "dark"
+        ]
+      },
+      {
+        "id": "avengers-doctor-doom",
+        "name": "Доктор Дум",
+        "nameEn": "Doctor Doom",
+        "img": "/images/avengers/doctor-doom.webp",
+        "traits": [
+          "male",
+          "dark"
+        ]
+      },
+      {
+        "id": "avengers-silver-surfer",
+        "name": "Серебряный Сёрфер",
+        "nameEn": "Silver Surfer",
+        "img": "/images/avengers/silver-surfer.webp",
+        "traits": [
+          "male"
+        ]
+      },
+      {
+        "id": "avengers-venom",
+        "name": "Веном",
+        "nameEn": "Venom",
+        "img": "/images/avengers/venom.webp",
+        "traits": [
+          "male"
+        ]
+      }
+    ]
+  }
+]

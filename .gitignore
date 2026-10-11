@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+.vercel/
+.upstream/
+.cache/
+test-results/
+playwright-report/
+*.log
+*.tsbuildinfo
+server/.data/
+.runtime/

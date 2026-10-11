@@ -1,0 +1,12 @@
+export type Lang = 'ru' | 'en';
+export type Character = { id: string; name: string; nameEn: string; img: string; traits: string[] };
+export type Category = { id: string; title: string; titleEn: string; subtitle: string; subtitleEn: string; color: string; characters: Character[] };
+export type Profile = { id: string; username: string; staff_badge?:'gold'|'violet'|null; coins: number; wins: number; draws?: number; games: number; frame: string; owned: string[]; friend_code?:string; avatar?:string|null; rating: number; rated_games: number; category_wins: Record<string,number>; title: string };
+export type Room = { id: string; code: string; category: string; host_id: string; guest_id: string | null; host_name: string; guest_name: string | null; status: 'waiting' | 'selecting' | 'playing' | 'finished'; turn_id: string | null; winner_id: string | null; is_public: boolean; is_ranked: boolean; created_at: string; host_ready: boolean; guest_ready: boolean; host_avatar?:string|null; host_title?:string; host_rating?:number; host_frame?:string; host_staff_badge?:'gold'|'violet'|null; category_title?:string; category_title_en?:string; outcome?:'win'|'draw'|'cancelled'|null; pending_winner?:string|null; rating_changes?: Record<string,number> };
+export type Message = { id: string; sender_id: string; username: string; body: string; created_at: string };
+export type GameView = { room: Room; voice_allowed: boolean; friendship: 'none' | 'incoming' | 'outgoing' | 'friends'; own_closed: string[] | null; own_board_version: number; opponent_closed: string[]; secret: string | null; messages: Message[]; players?:Record<string,{avatar:string|null;title:string;rating:number;frame:string;staff_badge?:'gold'|'violet'|null}> };
+export type DeckRecord = { id: string; owner_id: string | null; published: boolean; data: Category };
+export type DeckSummary = Omit<Category, 'characters'> & { owner_id: string | null; published: boolean; author: string | null; cover: string; size: number; likes: number; dislikes: number; my_vote: number };
+export type MatchHistory = { games: number; wins: number; losses: number; draws: number; opponents: {id:string;username:string}[]; matches: {id:string;category:string;is_ranked:boolean;finished_at:string;outcome:'win'|'draw';winner_id:string|null;opponent_id:string;opponent_name:string;rating_change:string|null}[] };
+
+export type StreakStatus = { count: number; best: number; lit: boolean; today: string; last_day: string | null; timezone: string; reward: { coins: number; gift: string | null } | null; recent: string[] };

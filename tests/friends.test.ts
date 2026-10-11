@@ -1,0 +1,32 @@
+import {beforeAll,afterAll,test,expect} from 'vitest';
+import {createDatabase} from '../server/database.mjs';
+let backend:Awaited<ReturnType<typeof createDatabase>>;
+beforeAll(async()=>{backend=await createDatabase('memory://');},30000);
+afterAll(()=>backend.close());
+test('requests need recipient acceptance and cannot expose another player’s private profile',async()=>{
+  const a=await backend.session('','Friend A');const b=await backend.session('','Friend B');const outsider=await backend.session('','Outsider');
+  expect(a.profile.friend_code).toMatch(/^[A-F0-9]{10}$/);
+  await expect(backend.call(a.profile.id,'request_friend',{p_code:a.profile.friend_code})).rejects.toThrow('INVALID_FRIEND');
+  await backend.call(a.profile.id,'request_friend',{p_code:b.profile.friend_code});
+  expect((await backend.call(a.profile.id,'get_friends')).outgoing).toHaveLength(1);
+  expect((await backend.call(b.profile.id,'get_friends')).incoming).toHaveLength(1);
+  await expect(backend.call(a.profile.id,'respond_friend',{p_user:b.profile.id,p_accept:true})).rejects.toThrow('INVALID_FRIEND');
+  await expect(backend.call(a.profile.id,'invite_friend',{p_user:b.profile.id,p_category:'naruto'})).rejects.toThrow('INVALID_FRIEND');
+  await backend.call(b.profile.id,'respond_friend',{p_user:a.profile.id,p_accept:true});
+  const friends=(await backend.call(a.profile.id,'get_friends')).friends;
+  expect(friends[0].id).toBe(b.profile.id);expect(friends[0]).not.toHaveProperty('coins');expect(friends[0]).not.toHaveProperty('owned');
+  const room=await backend.call(a.profile.id,'invite_friend',{p_user:b.profile.id,p_category:'naruto'});
+  const invitation=(await backend.call(b.profile.id,'get_friends')).invites[0];
+  await expect(backend.call(outsider.profile.id,'accept_invite',{p_invite:invitation.id})).rejects.toThrow('INVALID_INVITE');
+  expect((await backend.call(b.profile.id,'accept_invite',{p_invite:invitation.id})).id).toBe(room.id);
+  expect((await backend.call(b.profile.id,'get_friends')).invites).toEqual([]);
+  await backend.call(a.profile.id,'remove_friend',{p_user:b.profile.id});
+  expect((await backend.call(b.profile.id,'get_friends')).friends).toEqual([]);
+});
+test('new reactions are bought at server prices and cannot be charged twice',async()=>{
+  const a=await backend.session('','Reaction Collector');
+  await backend.db.query('update public.profiles set coins=1000 where id=$1',[a.profile.id]);
+  const first=await backend.call(a.profile.id,'buy_item',{p_item:'emoji-clown',price:0});expect(first.coins).toBe(850);
+  expect((await backend.call(a.profile.id,'buy_item',{p_item:'emoji-clown'})).coins).toBe(850);
+  expect((await backend.call(a.profile.id,'buy_item',{p_item:'emoji-ez'})).owned).toContain('emoji-ez');
+});
